@@ -6,3 +6,8 @@ compatibility_date = "2024-05-13"
 binding = "BACKEND"
 service = "cloudflare_temp_email"
 environment = "production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cloud_mail_db" 
+database_id = "fa73e81e-2e5f-41fc-ae6e-5df12f4feeae"
