@@ -11,3 +11,10 @@ environment = "production"
 binding = "DB"
 database_name = "cloud_mail_db" 
 database_id = "fa73e81e-2e5f-41fc-ae6e-5df12f4feeae"
+
+[vars]
+# 你的主域名，比如 "yourdomain.com"
+DOMAIN = "windowsupdate.dpdns.org"
+
+# 邮箱地址的安全密钥，随便写一段复杂的字母+数字，用于加密
+JWT_SECRET = "fabse9ry98fhnadsofh98qh03"
